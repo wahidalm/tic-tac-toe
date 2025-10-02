@@ -1,6 +1,6 @@
 'use client'
 import { useState } from 'react';
-// import "./page.css";
+import './globals.css';
 
 
 const calculateWinner = (board) => {
