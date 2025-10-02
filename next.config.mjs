@@ -5,13 +5,9 @@
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Enables static exports
   output: 'export',
-
-  // Your repository name (e.g., if your repo is 'my-next-app', this should be '/my-next-app')
+  // Correct the basePath to match your repo name exactly
   basePath: '/tic-tac-toe', 
-
-  // Disables the default Next.js image optimization
   images: {
     unoptimized: true,
   },
