@@ -5,8 +5,8 @@
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  basePath: '/tic-tac-toe',
+//   output: 'export',
+//   basePath: '/tic-tac-toe',
 };
 
 export default nextConfig;
