@@ -9,7 +9,7 @@ const nextConfig = {
   output: 'export',
 
   // Your repository name (e.g., if your repo is 'my-next-app', this should be '/my-next-app')
-  basePath: 'tic-tac-toe', 
+  basePath: '/tic-tac-toe', 
 
   // Disables the default Next.js image optimization
   images: {
