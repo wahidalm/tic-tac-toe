@@ -73,11 +73,7 @@ if (winner) {
       <div className="status">{status}</div>
       <div className="game-board">
         {board.map((cell, index) => (
-          <div
-            key={index}
-            className="cell"
-            onClick={() => handleCellClick(index)}
-          >
+          <div key={index} className="cell" onClick={() => handleCellClick(index)}>
             {cell}
           </div>
         ))}
